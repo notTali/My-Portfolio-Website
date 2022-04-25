@@ -1,0 +1,11 @@
+/* Website Variables for the default theme*/
+:root{
+    --background: #FFFFFF;
+    --surface: #DAE4E8;
+    --primary: #5FD1D4;
+    --secondary: #1C3342;
+    --onBackground: var(--secondary);
+    --onSurface:var(--secondary);
+    --onPrimary:var(--secondary);
+    --onSecondary:var(--surface)
+}
