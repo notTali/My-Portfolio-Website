@@ -102,18 +102,24 @@ nav > h1{
 /* Header Content */
 .header-content{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 150px;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-areas: 
+    "intro picture"
+    ;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-gap: 10px;
 }
 
 .intro{
-    
+    /* padding-left: 40px; */
+    grid-area: intro;
     /* border: 2px dashed #1C3342; */
     /* height: 500px; */
 }
 
 .picture{
-    position: relative;
+    grid-area: picture;
+    /* position: relative; */
     
     /* border: 2px dashed #1C3342; */
     /* height: 500px; */
@@ -191,7 +197,7 @@ nav > h1{
     color: var(--surface);
     padding: 8px 50px;
     border-radius: 20px;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .buttons > a > i{
