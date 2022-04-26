@@ -36,6 +36,7 @@ a{
 }
 
 .header-wrapper{
+    position: relative;
     font-size: large;
     font-weight: 500;
     width: var(--site-width);
@@ -45,6 +46,7 @@ a{
     display: grid;
     grid-template-rows: 1fr 5fr;
     grid-row-gap: 100px;
+    /* background-color: #5FD1D4; */
 }
 
 /* THe navigation bar */
@@ -53,7 +55,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
-    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.01);
 }
 nav > h1{
     color: var(--primary);
@@ -111,17 +113,22 @@ nav > h1{
 }
 
 .picture{
+    position: relative;
+    
     /* border: 2px dashed #1C3342; */
     /* height: 500px; */
-    background-color: #1C3342;
-    /* border-top-left-radius: 100px; */
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 99%, 14% 51%);
+    display: block;
+    background-color: var(--secondary);
+    border-top-left-radius: 100px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
 }
 
 
 /* Header content */
 .welcome{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .welcome > .hello{ 
@@ -160,3 +167,35 @@ nav > h1{
     color: var(--light-text);
     /* line-height: 80px; */
 }
+
+.right-side{
+    display: none;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    width: 70%;
+    top: 0;
+    right: 0;
+    background-color: var(--primary);
+    clip-path: polygon(0px 0px, 100% 0px, 100% 30%, 100% 70%, 100% 100%, 0px 100%, 13.69% 61.4%, 13.89% 50.01%);
+}
+
+/* Header buttons */
+.buttons{
+    margin-top: 60px;
+}
+
+.buttons > a {
+    
+    background-color: var(--secondary);
+    color: var(--surface);
+    padding: 8px 50px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.buttons > a > i{
+    padding-right: 8px;
+    color: var(--primary);
+}
+
