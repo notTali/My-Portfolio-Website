@@ -8,6 +8,7 @@
     --onSurface:var(--secondary);
     --onPrimary:var(--secondary);
     --onSecondary:var(--surface);
+    --light-text: #506068;
     --site-width: 75%;
     --site-max-width: 1400px;
 }
@@ -136,8 +137,8 @@ nav > h1{
 .welcome > .greet{ 
     padding-left: 20px;
     border-left: 8px solid var(--secondary);
-    color: #57595a;
-    font-weight: 400;
+    color: var(--light-text);
+    font-weight: 500px;
     line-height: 40px;
     letter-spacing: 2px;
 }
@@ -156,5 +157,6 @@ nav > h1{
     font-weight: 600;
     letter-spacing: 4px;
     margin-bottom: 30px;
+    color: var(--light-text);
     /* line-height: 80px; */
 }
