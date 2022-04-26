@@ -113,7 +113,8 @@ nav > h1{
     /* border: 2px dashed #1C3342; */
     /* height: 500px; */
     background-color: #1C3342;
-    border-top-left-radius: 100px;
+    /* border-top-left-radius: 100px; */
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 99%, 14% 51%);
 }
 
 
@@ -147,6 +148,7 @@ nav > h1{
     letter-spacing: 5px;
     line-height: 80px;
     margin-bottom: 30px;
+    color: var(--secondary);
 }
 
 .intro > p{
