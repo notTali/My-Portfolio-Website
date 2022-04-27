@@ -47,10 +47,14 @@ a{
     grid-template-rows: 1fr 5fr;
     grid-row-gap: 100px;
     /* background-color: #5FD1D4; */
+    grid-template-areas: 
+    "nav"
+    "header-content";
 }
 
 /* THe navigation bar */
 nav{
+    grid-area: nav;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +76,7 @@ nav > h1{
 
 .nav-list > li{
     color: var(--secondary);
-    margin-left: 55px;
+    margin-left: 45px;
 }
 
 /* Contact number */
@@ -103,6 +107,7 @@ nav > h1{
 .header-content{
     display: grid;
     grid-template-columns: 1.5fr 1fr;
+   grid-area: header-content;
     grid-template-areas: 
     "intro picture"
     ;
