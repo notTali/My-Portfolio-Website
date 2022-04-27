@@ -1,6 +1,7 @@
 /* Website Variables for the default theme*/
 :root{
     --background: #FFFFFF;
+    --background-odd: #eff1f1;
     --surface: #DAE4E8;
     --primary: #5FD1D4;
     --secondary: #1C3342;
@@ -20,7 +21,7 @@
 }
 
 body{
-    background-color: var(--background);
+    
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
@@ -36,6 +37,7 @@ a{
 }
 
 .header-wrapper{
+    
     position: relative;
     font-size: large;
     font-weight: 500;
@@ -142,7 +144,7 @@ nav > h1{
     margin-bottom: 40px;
 }
 
-.welcome > .hello{ 
+.section-tittle{ 
     padding-left: 20px;
     border-left: 8px solid var(--primary);
     color: var(--secondary);
@@ -152,7 +154,7 @@ nav > h1{
 
 }
 
-.welcome > .greet{ 
+.section-subtittle{ 
     padding-left: 20px;
     border-left: 8px solid var(--secondary);
     color: var(--light-text);
@@ -210,3 +212,20 @@ nav > h1{
     color: var(--primary);
 }
 
+/* Main */
+
+/* Skills and experiences */
+.skills-experience{
+    padding-top: 90px;
+    background-color: var(--background-odd);
+}
+
+.skills-wrapper{
+    width: var(--site-width);
+    max-width: var(--site-max-width);
+    margin: auto;
+}
+
+.skills-wrapper > .skills-list > .skill {
+    padding-left: 0;
+}
