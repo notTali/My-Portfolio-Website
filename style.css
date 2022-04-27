@@ -44,7 +44,7 @@ a{
     margin: auto;
     padding-top: 20px;
     display: grid;
-    grid-template-rows: 1fr 5fr;
+    /* grid-template-rows: 1fr 5fr; */
     grid-row-gap: 100px;
     /* background-color: #5FD1D4; */
     grid-template-areas: 
