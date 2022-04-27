@@ -215,8 +215,9 @@ nav > h1{
 /* Main */
 
 /* Skills and experiences */
-.skills-experience{
+.skills-section{
     padding-top: 90px;
+    padding-bottom: 50px;
     background-color: var(--background-odd);
 }
 
@@ -228,4 +229,8 @@ nav > h1{
 
 .skills-wrapper > .skills-list > .skill {
     padding-left: 0;
+}
+
+.skills-wrapper > div {
+    margin-bottom: 50px;
 }
