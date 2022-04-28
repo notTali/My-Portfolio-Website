@@ -225,12 +225,26 @@ nav > h1{
     width: var(--site-width);
     max-width: var(--site-max-width);
     margin: auto;
+    display: grid;
+    grid-template-areas: 
+    "skills-tittles skills-tittles"
+    "skills-list experiences"
+    ;
 }
 
 .skills-wrapper > .skills-list > .skill {
     padding-left: 0;
 }
 
-.skills-wrapper > div {
+.skills-wrapper > .skills-tittles {
+    grid-area: skills-tittles;
     margin-bottom: 50px;
+}
+
+.skills-list{
+    grid-area: skills-list;
+}
+
+.experiences{
+    grid-area: experiences;
 }
