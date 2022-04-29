@@ -131,7 +131,7 @@ nav > h1{
 .picture{
     grid-area: picture;
     /* position: relative; */
-    padding: 0;
+    padding: 0px;
     background: url(./assets/i13.png) right / contain no-repeat;
     /* border: 2px dashed #1C3342; */
     /* height: 500px; */
@@ -188,15 +188,17 @@ nav > h1{
 }
 
 .right-side{
-    display: none;
+    display: block;
     position: absolute;
     height: 100%;
     z-index: -1;
     width: 70%;
     top: 0;
     right: 0;
-    background-color: var(--primary);
-    clip-path: polygon(0px 0px, 100% 0px, 100% 30%, 100% 70%, 100% 100%, 0px 100%, 13.69% 61.4%, 13.89% 50.01%);
+    /* border: 2px dashed #1C3342; */
+    background: url(./assets/circle-scatter.svg) right / contain no-repeat;
+    /* background-color: var(--primary); */
+    /* clip-path: polygon(0px 0px, 100% 0px, 100% 30%, 100% 70%, 100% 100%, 0px 100%, 13.69% 61.4%, 13.89% 50.01%); */
 }
 
 /* Header buttons */
