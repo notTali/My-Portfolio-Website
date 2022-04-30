@@ -3,6 +3,7 @@
     --background: #FFFFFF;
     --background-odd: #eff1f1;
     --surface: #DAE4E8;
+    --home-bg-color: rgb(218, 228, 232,0.3);
     --primary: #5FD1D4;
     --secondary: #1C3342;
     --onBackground: var(--secondary);
@@ -58,7 +59,7 @@ a{
     grid-template-areas: 
     "nav"
     "header-content";
-
+    background-color: var(--home-bg-color);
 }
 
 /* THe navigation bar */
@@ -156,7 +157,7 @@ nav > h1{
     margin-top: 40px;
 }
 
-.section-tittle{ 
+.tittle-left{ 
     padding-left: 20px;
     border-left: 8px solid var(--primary);
     color: var(--secondary);
@@ -166,7 +167,7 @@ nav > h1{
 
 }
 
-.section-subtittle{ 
+.subtittle-left{ 
     padding-left: 20px;
     border-left: 8px solid var(--secondary);
     color: var(--light-text);
@@ -230,7 +231,7 @@ nav > h1{
 /* Skills and experiences */
 .skills-section{
     padding-top: 90px;
-    background-color: var(--background-odd);
+    /* background-color: var(--background-odd); */
 }
 
 .skills-wrapper{
@@ -271,7 +272,7 @@ nav > h1{
     grid-area: experiences;
 }
 
-.skills-tittles > .tittle{ 
+.tittle-right{ 
     padding-right: 20px;
     border-right: 8px solid var(--primary);
     color: var(--secondary);
@@ -281,7 +282,7 @@ nav > h1{
 
 }
 
-.skills-tittles > .subtittle{ 
+.subtittle-right{ 
     padding-right: 20px;
     border-right: 8px solid var(--secondary);
     color: var(--light-text);
@@ -299,7 +300,7 @@ nav > h1{
 
 .skill li{
     background: #f1dded;
-    border: 10px solid rgba(250, 199, 240, 0.13);
+    /* border: 10px solid rgba(250, 199, 240, 0.13); */
     border-radius: 100%;
     display: flex;
     flex-direction: column;
