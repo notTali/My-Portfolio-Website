@@ -315,7 +315,27 @@ nav > h1{
 }
 
 .projects{
-    padding: 20px;
+    background-color: var(--background-odd);
+    padding: 90px;
+}
+
+
+/* Projects section */
+.projects-wrapper{
+    width: var(--site-width);
+    max-width: var(--site-max-width);
+    margin: auto;
+    display: grid;
+    grid-row-gap: 120px;
+}
+.heading{
+    /* border: 2px solid #1C3342; */
+}
+
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card{
