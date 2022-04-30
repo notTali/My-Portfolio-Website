@@ -331,6 +331,9 @@ nav > h1{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
+    /* To be removed! */
+    margin-bottom: 20px;
 }
 
 .card > div{
@@ -344,7 +347,7 @@ nav > h1{
 .card > div > h3{
     /* padding: 0; */
     /* border: 2px solid #5FD1D4; */
-    color: var(--primary);
+    color: var(--secondary);
 }
 
 .card > div > ul{
@@ -358,9 +361,9 @@ nav > h1{
     padding: 0px 3px;
     margin-right: 10px;
     margin-bottom: 10px;
-    /* background-color: rgb(202, 202, 0); */
     font-size: 0.8rem;
     font-weight: bold;
+    border-radius: 5px;
 }
 .languages li:nth-child(1){
     background-color: yellow;
