@@ -315,3 +315,87 @@ nav > h1{
 .skill li:nth-child(odd){
     background: #d8eff1;
 }
+
+.projects{
+    padding: 20px;
+}
+
+.card{
+    /* border: 2px solid #1C3342; */
+    background-color: var(--background-odd);
+    width: 300px;
+    padding: 15px 0px 0px 0px;
+    border-radius: 5px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card > div{
+    padding: 0px 15px;
+    display: grid;
+    grid-template-rows: 0.8fr 0.8fr 1fr;
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-gap: 10px;
+}
+
+.card > div > h3{
+    /* padding: 0; */
+    /* border: 2px solid #5FD1D4; */
+    color: var(--primary);
+}
+
+.card > div > ul{
+    /* padding: 10px 0px; */
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.languages li{
+    padding: 0px 3px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    /* background-color: rgb(202, 202, 0); */
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.languages li:nth-child(1){
+    background-color: yellow;
+}
+.languages li:nth-child(2){
+    background-color: lightgreen;
+}
+.languages li:nth-child(3){
+    background-color: purple;
+    color: white;
+}
+.languages li:nth-child(4){
+    color: white;
+    background-color: grey;
+}
+.languages li:nth-child(5){
+    background-color: black;
+    color: white;
+}
+.languages li:nth-child(6){
+    color: white;
+    background-color: red;
+}
+.languages li:nth-child(7){
+    color: white;
+    background-color: blue;
+}
+.languages li:nth-child(8){
+    color: white;
+    background-color: green;
+}
+
+.card img{
+    border-radius: 10px;
+    height: 40%;
+    width: 90%;
+    /* background: url(./assets/web.JPG) no-repeat center/contain; */
+}
