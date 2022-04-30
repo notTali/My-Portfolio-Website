@@ -2,6 +2,7 @@
 :root{
     --background: #FFFFFF;
     --background-odd: #eff1f1;
+    --card-bg-color: #dadde8;
     --surface: #DAE4E8;
     --home-bg-color: rgb(218, 228, 232,0.3);
     --primary: #5FD1D4;
@@ -127,7 +128,7 @@ nav > h1{
 .header-content{
     padding-top: 40px;
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-area: header-content;
     grid-template-areas: 
     "intro picture"
@@ -136,6 +137,8 @@ nav > h1{
 }
 
 .intro{
+    padding-top: 70px;
+    padding-bottom: 200px;
     /* padding-left: 40px; */
     grid-area: intro;
     /* border: 2px dashed #1C3342; */
@@ -360,7 +363,7 @@ nav > h1{
 
 .card{
     /* border: 2px solid #1C3342; */
-    background-color: #DAE4E8;
+    background-color: var(--card-bg-color);
     width: 300px;
     padding: 15px 0px 0px 0px;
     border-radius: 5px;
