@@ -245,7 +245,7 @@ nav > h1{
     "skills-list experiences"
     ;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 60px;
+    padding-bottom: 90px;
 }
 
 .skills-wrapper > .skills-list > .skill {
@@ -270,7 +270,25 @@ nav > h1{
 
 .experiences{
     grid-area: experiences;
+    display: grid;
+    grid-row-gap: 20px;
+    
 }
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.experience .year{
+    padding: 5px 0px;
+    /* border: 2px dashed #1C3342; */
+}
+
+.experience-description{
+    /* border: 2px dashed #5FD1D4; */
+}
+
+
 
 .tittle-right{ 
     padding-right: 20px;
