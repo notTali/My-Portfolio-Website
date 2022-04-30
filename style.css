@@ -21,7 +21,6 @@
 }
 
 body{
-    
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
@@ -67,6 +66,8 @@ nav{
     box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.01);
 }
 nav > h1{
+    font-weight: bolder;
+    font-size: 2rem;
     color: var(--primary);
 }
 
@@ -79,31 +80,38 @@ nav > h1{
     
 }
 
-.nav-list > li{
+.nav-list >  li{
     color: var(--secondary);
-    margin-left: 45px;
+    margin-left: 20px;
+}
+.nav-list > a > li{
+    color: var(--secondary);
+    margin-left: 20px;
+}
+.nav-list > a > li > h3{
+    font-size: large;
 }
 
 /* Contact number */
-.nav-list > .call > i {
+.nav-list > a > .call > i {
     color: var(--surface);
 }
 
-.nav-list > .call{
+.nav-list > a > .call{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: var(--secondary);
     padding: 5px 20px;
-    margin-left: 50px;
+    margin-left: 20px;
     border-radius: 8px;
 }
 
-.nav-list > .call > i {
+.nav-list > a > .call > i {
     padding-right: 10px;
 }
 
-.nav-list > .call > p {
+.nav-list > a > .call > h3 {
     color: var(--primary);
 }
 
