@@ -81,7 +81,6 @@ nav > h1{
 }
 
 .nav-list >  li{
-    color: var(--secondary);
     margin-left: 20px;
 }
 .nav-list > a > li{
@@ -89,7 +88,7 @@ nav > h1{
     margin-left: 20px;
 }
 .nav-list > a > li > h3{
-    font-size: large;
+    font-size: 1.2rem;
 }
 
 /* Contact number */
@@ -234,7 +233,6 @@ nav > h1{
 /* Skills and experiences */
 .skills-section{
     padding-top: 90px;
-    padding-bottom: 110px;
     background-color: var(--background-odd);
 }
 
