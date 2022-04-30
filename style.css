@@ -226,7 +226,7 @@ nav > h1{
 /* Skills and experiences */
 .skills-section{
     padding-top: 90px;
-    padding-bottom: 50px;
+    padding-bottom: 110px;
     background-color: var(--background-odd);
 }
 
@@ -235,11 +235,13 @@ nav > h1{
     max-width: var(--site-max-width);
     margin: auto;
     display: grid;
-    grid-row-gap: 50px;
+    grid-gap: 60px;
     grid-template-areas: 
     "skills-tittles skills-tittles"
     "skills-list experiences"
     ;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 60px;
 }
 
 .skills-wrapper > .skills-list > .skill {
@@ -258,6 +260,8 @@ nav > h1{
 
 .skills-list{
     grid-area: skills-list;
+    
+    
 }
 
 .experiences{
@@ -284,26 +288,24 @@ nav > h1{
 }
 
 .skills-list > ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
 }
 
 .skill li{
-    margin-right: 20px;
     background: #f1dded;
-    width: 220%;
-    height: 220%;
+    border: 10px solid rgba(250, 199, 240, 0.13);
     border-radius: 100%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 15px 10px;
-    /* padding: 1.6%; */
+    width: 115px;
+    height: 115px;
 }
 
 .skill li:nth-child(odd){
-    background: #ffffff;
+    background: #d8eff1;
 }
