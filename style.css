@@ -341,7 +341,6 @@ nav > h1{
 .projects{
     background-color: var(--background-odd);
     padding: 120px;
-    /* position: relative; */
 }
 
 
@@ -364,7 +363,7 @@ nav > h1{
     align-items: center;
     padding: 20px;
     position: absolute;
-    top: -15%;
+    top: -170px;
     left: 10%;
     right: 10%;
     border-radius: 10px;
