@@ -41,6 +41,7 @@ a{
 
 /* Center the header */
 .head-center{
+    /* position: relative; */
     max-width: var(--site-max-width);
     width: var(--site-width);
     margin: auto;
@@ -250,7 +251,7 @@ nav > h1{
     "skills-list experiences"
     ;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 90px;
+    padding-bottom: 150px;
 }
 
 .skills-wrapper > .skills-list > .skill {
@@ -339,7 +340,8 @@ nav > h1{
 
 .projects{
     background-color: var(--background-odd);
-    padding: 90px;
+    padding: 120px;
+    /* position: relative; */
 }
 
 
@@ -349,8 +351,34 @@ nav > h1{
     max-width: var(--site-max-width);
     margin: auto;
     display: grid;
-    grid-row-gap: 120px;
+    grid-row-gap: 60px;
+    position: relative;
+
 }
+
+.wide-card{
+    display: flex;
+    background-color: var(--background);
+    /* width: 70%; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: -16.5%;
+    left: 10%;
+    right: 10%;
+    border-radius: 10px;
+    border: 2px dashed #5FD1D4;
+}
+.wide-card .left{
+    display: flex;
+    align-items: center;
+}
+.wide-card .btn{
+    display: flex;
+    align-items: center;
+}
+
 .heading{
     /* border: 2px solid #1C3342; */
 }
