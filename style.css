@@ -364,7 +364,7 @@ nav > h1{
     align-items: center;
     padding: 20px;
     position: absolute;
-    top: -16.5%;
+    top: -15%;
     left: 10%;
     right: 10%;
     border-radius: 10px;
@@ -374,6 +374,17 @@ nav > h1{
     display: flex;
     align-items: center;
 }
+.left i{
+    padding-right: 20px;
+    border-right: 1px solid var(--light-text);
+    font-size: 3rem;
+}
+
+.left div{
+    
+}
+
+
 .wide-card .btn{
     display: flex;
     align-items: center;
