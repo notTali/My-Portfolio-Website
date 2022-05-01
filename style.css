@@ -350,12 +350,31 @@ nav > h1{
     max-width: var(--site-max-width);
     margin: auto;
     display: grid;
+    grid-template-areas: 
+    "heading filter-menu"
+    "card-wrapper card-wrapper"
+    ;
+    align-items: flex-end;
+    /* justify-items: center; */
     grid-row-gap: 60px;
     position: relative;
 
 }
 
+.filter-menu ul{
+    display: flex;
+    /* border: 2px dashed #1C3342; */
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+.filter-menu ul a{
+    padding-left: 20px;
+}
+
 .wide-card{
+    grid-area: filter-menu;
     display: flex;
     background-color: var(--background);
     /* width: 70%; */
@@ -364,8 +383,8 @@ nav > h1{
     padding: 20px;
     position: absolute;
     top: -170px;
-    left: 10%;
-    right: 10%;
+    /* left: 10%; */
+    /* right: 10%; */
     border-radius: 10px;
     box-shadow: 0px 0px 52px -12px rgba(0,0,0,0.57);
 
@@ -399,6 +418,7 @@ nav > h1{
 }
 
 .heading{
+    grid-area: heading;
     /* border: 2px solid #1C3342; */
 }
 
@@ -406,6 +426,7 @@ nav > h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    grid-area: card-wrapper;
 }
 
 .card{
