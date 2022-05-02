@@ -335,12 +335,10 @@ nav > h1{
 
 .experience .year{
     padding: 5px 0px;
-    /* border: 2px dashed #1C3342; */
 }
 
-.experience-description{
-    /* border: 2px dashed #5FD1D4; */
-}
+/* .experience-description{
+} */
 
 
 
@@ -737,3 +735,13 @@ textarea{
     }
 }
 /* 
+
+320px
+480px
+600px
+768px
+900px
+1024px
+1200px
+
+*/
