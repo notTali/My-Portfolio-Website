@@ -3,7 +3,7 @@ window.onload = function() {
       selector: ".particles",
       color: ['#b1dcf5','#f5b1c2'],
       connectParticles: true,
-      maxParticles: 150,
+      maxParticles: 50,
       sizeVariations: 30,
       speed: 0.7,
     });
