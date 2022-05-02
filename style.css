@@ -521,3 +521,18 @@ nav > h1{
     width: 90%;
     /* background: url(./assets/web.JPG) no-repeat center/contain; */
 }
+
+
+.contact-me{
+    padding: 100px 0px;
+}
+
+.contact-wrapper{
+    width: var(--site-width);
+    max-width: var(--site-max-width);
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: end;
+}
+
