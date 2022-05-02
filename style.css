@@ -577,14 +577,50 @@ nav > h1{
 }
 
 .contact-form{
+    padding: 30px 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #5FD1D4;
+    background-color: #a2e7eb;
+    border-radius: 5px;
 }
 
 .contact-form div{
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.contact-form div label{
+    color: var(--secondary);
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.15rem;
+    padding-bottom: 8px;
+    /* line-height: 30px; */
+
+}
+
+.contact-form div input, textarea{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0px 20px;
+    font-size: 1.01rem;
+    background-color: var(--secondary);
+    color: var(--background);
+}
+
+textarea{
+    height: 70px;
+}
+
+.contact-form input[type="submit"]{
+    width: fit-content;
+    padding: 10px 70px;
+    border: none;
+    background-color: var(--secondary);
+    color: var(--background);
+    border-radius: 8px;
 }
