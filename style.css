@@ -405,7 +405,7 @@ nav > h1{
 .projects{
     /* transition: 1.5s; */
     background-color: var(--background-odd);
-    padding: 120px;
+    padding: 120px 0px;
 }
 
 
@@ -696,7 +696,9 @@ textarea{
 }
 
 /* Media Queries */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
+    
+    /* Navigation Bar */
     .nav-list >  li{
         font-size: 1rem;
     }
@@ -708,8 +710,6 @@ textarea{
     .nav-list > a > .call{
         font-size: 1rem;
         padding: 2px 16px;
-        margin-left: 20px;
-        border-radius: 8px;
     }
 
     .header-content{
@@ -719,9 +719,18 @@ textarea{
     }
 
     .social-links{
+        top: 35%;
         right: 5px;
         transform: scale(0.7);
-        /* font-size: 2.2rem; */
+    }
+
+    /* Skills Section Looks good at this breakpoint*/
+
+    /* Wide card */
+    .wide-card{
+        /* transform: scale(0.8); */
+        left: -45%;
+        right: 0%;
     }
 }
 /* 
@@ -733,13 +742,7 @@ textarea{
 
 
 
-.nav-list > a > .call > i {
-    padding-right: 10px;
-}
 
-.nav-list > a > .call > h3 {
-    color: var(--primary);
-}
 
 
 */
