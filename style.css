@@ -237,6 +237,7 @@ nav > h1{
 /* Skills and experiences */
 .skills-section{
     padding-top: 90px;
+    position: relative;
     /* background-color: var(--background-odd); */
 }
 
@@ -336,6 +337,17 @@ nav > h1{
 
 .skill li:nth-child(odd){
     background: #d8eff1;
+}
+
+.scroll-top{
+    position: fixed;
+    bottom:50px;
+    left: 50px;
+    padding: 20px 24px;
+    background-color: #eaeef0;
+    font-size: 1.2rem;
+    color: var(--secondary);
+    border-radius: 100%;
 }
 
 .projects{
