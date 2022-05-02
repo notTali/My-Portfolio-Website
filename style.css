@@ -536,3 +536,42 @@ nav > h1{
     justify-items: end;
 }
 
+.contact-info .heading > p{
+    padding-top: 20px;
+}
+
+.contact-info .heading {
+    padding-bottom: 50px;
+}
+
+.contact-info ul{
+    padding: 0px;
+}
+
+.contact-info .more li{
+    
+    /* background-color: #5FD1D4; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-info .more li p{
+    font-size: large;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+.contact-info .more li i{
+    font-size: 1.5rem;
+}
+
+.contact-info .socials {
+    margin-top: 50px;
+    font-size: 1.7rem;
+    display: flex;
+}
+
+.contact-info .socials > li{
+    margin-right: 20px;
+}
