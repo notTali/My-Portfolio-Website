@@ -739,40 +739,6 @@ textarea{
 /* Media Queries */
 @media screen and (max-width: 1200px) {
     
-    /* Navigation Bar */
-    .nav-list >  li{
-        font-size: 1rem;
-    }
-    
-    .nav-list > a > li > h3{
-        font-size: 1rem;
-    }
-
-    .nav-list > a > .call{
-        font-size: 1rem;
-        padding: 2px 16px;
-    }
-
-    .header-content{
-        padding-top: 20px;
-        grid-template-columns: 2fr 1fr;
-        grid-gap: 20px;
-    }
-
-    .intro{
-        padding-top: 0px;
-        padding-bottom: 0px;
-        grid-area: intro;
-    }
-
-    .social-links{
-        top: 35%;
-        right: 5px;
-        transform: scale(0.7);
-    }
-
-    /* Skills Section Looks good at this breakpoint*/
-
     /* Wide card */
     .wide-card{
         top: -2%;
@@ -799,6 +765,24 @@ textarea{
         font-weight: 500;
         font-size: 1.1rem;
     }
+
+    /* Projects */
+    .card-wrapper .card{
+        transform: scale(1.05);
+        margin-bottom: 50px; 
+        transition-property: transform;
+        transition: 0.3s;
+    }
+
+    .card-wrapper .card:hover{
+        transform: scale(1.1);
+    }
+
+    .card-wrapper{
+        padding: 0px;
+        justify-content: space-around;
+    }
+
 }
 
 
