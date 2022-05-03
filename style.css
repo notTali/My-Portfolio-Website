@@ -422,6 +422,8 @@ nav > h1{
 }
 
 .filter-menu i{
+    color: var(--secondary);
+    font-size: 1.1rem;
     display: none;
     text-align: end;
     /* padding-right: 35px; */
@@ -821,8 +823,8 @@ textarea{
 
 }
 
-
-@media screen and (max-width: 1025px) {
+/* 1300 window size and 1024 screes */
+@media screen and (max-width: 1300px) {
     
     /* Navigation Bar */
     .nav-list >  li{
