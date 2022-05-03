@@ -421,6 +421,12 @@ nav > h1{
 
 }
 
+.filter-menu i{
+    display: none;
+    text-align: end;
+    /* padding-right: 35px; */
+}
+
 .filter-menu ul{
     display: flex;
     /* border: 2px dashed #1C3342; */
@@ -882,6 +888,15 @@ textarea{
 
     .wide-card .btn{
         font-size: 1rem;
+    }
+
+    /* Going to add a JS even listener */
+    .filter-menu ul{
+        display: none;
+        /* flex-wrap: wrap; */
+    }
+    .filter-menu i{
+        display: block;
     }
 
 }
