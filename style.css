@@ -903,6 +903,56 @@ textarea{
 
 }
 
+/* Samsung Galaxy A51/71 */
+@media screen and (max-width: 420px) {
+    
+    :root{
+        --site-width: 90%;
+    }
+
+    .social-links{
+        display: none;
+    }
+
+    nav{
+        box-shadow: 1px 5px 10px rgba(0,0,0,0.2);
+        padding: 10px 25px;
+        margin-top: 0px;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        background-color: var(--background);
+        z-index: 20;
+    }
+
+    .header-content{
+        padding-top: 70px;
+    }
+
+    .nav-wrapper{
+        display: none;
+    }
+
+    .head-center{
+        position: relative;
+    }
+
+   
+
+    .skills-wrapper{
+        grid-template-areas:
+        "skills-tittles"
+        "skills-list" 
+        "experiences";
+    }
+
+    .contact-wrapper{
+        grid-template-columns: 1fr;
+    }
+
+}
+
 
 /* 
 
