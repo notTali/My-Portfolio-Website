@@ -850,10 +850,10 @@ textarea{
         font-size: 1.06rem;
     }
 
-    .tittle-left{
+    .tittle-left, .tittle-right{
         font-size: 1.3rem;
     }
-    .subtittle-left{
+    .subtittle-left, .subtittle-right{
         font-size: 1.1rem;
     }
 
