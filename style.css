@@ -512,7 +512,18 @@ nav > h1{
     align-items: center;
 
     /* To be removed! */
-    margin-bottom: 20px;
+    /* margin-bottom: 0px; */
+}
+
+.card-wrapper .card{
+    transform: scale(1.06);
+    margin-bottom: 100px; 
+    transition-property: transform;
+    transition: 0.3s;
+}
+
+.card-wrapper .card:hover{
+    transform: scale(1.2);
 }
 
 .card > div{
@@ -733,6 +744,25 @@ textarea{
         left: 20%;
         right: 20%;
     }
+
+   /* Projects */
+   .card-wrapper .card{
+    transform: scale(0.96);
+    margin-bottom: 50px; 
+    transition-property: transform;
+    transition: 0.3s;
+    }
+
+    .card-wrapper .card:hover{
+        transform: scale(1.01);
+    }
+
+    .card-wrapper{
+        padding: 0px;
+        justify-content: space-around;
+    }
+
+
 }
 
 
