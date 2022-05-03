@@ -816,6 +816,51 @@ textarea{
 }
 
 
+@media screen and (max-width: 1025px) {
+    
+    /* Navigation Bar */
+    .nav-list >  li{
+        font-size: 0.9rem;
+    }
+    
+    .nav-list > a > li > h3{
+        font-size: 0.9rem;
+    }
+
+    .nav-list > a > .call{
+        font-size: 0.9rem;
+        padding: 2px 16px;
+    }
+    
+    .header-content{
+        
+        grid-template-columns: 2fr 1fr;
+        
+    }
+
+    .intro .welcome{
+        margin: 30px 0px;
+    }
+
+    .intro h1{
+        font-size: 3rem;
+    }
+
+    .intro p{
+        font-size: 1.06rem;
+    }
+
+    .tittle-left{
+        font-size: 1.3rem;
+    }
+    .subtittle-left{
+        font-size: 1.1rem;
+    }
+
+
+}
+
+
 /* 
 
 320px
